@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5148C631FB4057500FB9C4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5148C621FB4057500FB9C4A /* AppDelegate.swift */; };
+		F5148C651FB4057500FB9C4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5148C641FB4057500FB9C4A /* ViewController.swift */; };
+		F5148C681FB4057500FB9C4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5148C661FB4057500FB9C4A /* Main.storyboard */; };
+		F5148C6A1FB4057500FB9C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5148C691FB4057500FB9C4A /* Assets.xcassets */; };
+		F5148C6D1FB4057500FB9C4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5148C6B1FB4057500FB9C4A /* LaunchScreen.storyboard */; };
+		F5148C771FB4066800FB9C4A /* MyTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5148C761FB4066800FB9C4A /* MyTable.swift */; };
+		F584A9891FBD3DA30062E1BD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F584A9881FBD3DA30062E1BD /* MapKit.framework */; };
+		F584A98B1FBD3DBC0062E1BD /* Maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = F584A98A1FBD3DBC0062E1BD /* Maps.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5148C5F1FB4057500FB9C4A /* MedicalCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5148C621FB4057500FB9C4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5148C641FB4057500FB9C4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5148C671FB4057500FB9C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5148C691FB4057500FB9C4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5148C6C1FB4057500FB9C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5148C6E1FB4057500FB9C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5148C761FB4066800FB9C4A /* MyTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTable.swift; path = ../MyTable.swift; sourceTree = "<group>"; };
+		F584A9881FBD3DA30062E1BD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F584A98A1FBD3DBC0062E1BD /* Maps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Maps.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5148C5C1FB4057500FB9C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F584A9891FBD3DA30062E1BD /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5148C561FB4057500FB9C4A = {
+			isa = PBXGroup;
+			children = (
+				F5148C611FB4057500FB9C4A /* MedicalCenter */,
+				F5148C601FB4057500FB9C4A /* Products */,
+				F584A9871FBD3DA30062E1BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5148C601FB4057500FB9C4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5148C5F1FB4057500FB9C4A /* MedicalCenter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5148C611FB4057500FB9C4A /* MedicalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				F5148C621FB4057500FB9C4A /* AppDelegate.swift */,
+				F5148C641FB4057500FB9C4A /* ViewController.swift */,
+				F5148C761FB4066800FB9C4A /* MyTable.swift */,
+				F5148C661FB4057500FB9C4A /* Main.storyboard */,
+				F5148C691FB4057500FB9C4A /* Assets.xcassets */,
+				F5148C6B1FB4057500FB9C4A /* LaunchScreen.storyboard */,
+				F5148C6E1FB4057500FB9C4A /* Info.plist */,
+				F584A98A1FBD3DBC0062E1BD /* Maps.swift */,
+			);
+			path = MedicalCenter;
+			sourceTree = "<group>";
+		};
+		F584A9871FBD3DA30062E1BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F584A9881FBD3DA30062E1BD /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5148C5E1FB4057500FB9C4A /* MedicalCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5148C711FB4057500FB9C4A /* Build configuration list for PBXNativeTarget "MedicalCenter" */;
+			buildPhases = (
+				F5148C5B1FB4057500FB9C4A /* Sources */,
+				F5148C5C1FB4057500FB9C4A /* Frameworks */,
+				F5148C5D1FB4057500FB9C4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicalCenter;
+			productName = MedicalCenter;
+			productReference = F5148C5F1FB4057500FB9C4A /* MedicalCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5148C571FB4057500FB9C4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = D7703_22;
+				TargetAttributes = {
+					F5148C5E1FB4057500FB9C4A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F5148C5A1FB4057500FB9C4A /* Build configuration list for PBXProject "MedicalCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5148C561FB4057500FB9C4A;
+			productRefGroup = F5148C601FB4057500FB9C4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5148C5E1FB4057500FB9C4A /* MedicalCenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5148C5D1FB4057500FB9C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5148C6D1FB4057500FB9C4A /* LaunchScreen.storyboard in Resources */,
+				F5148C6A1FB4057500FB9C4A /* Assets.xcassets in Resources */,
+				F5148C681FB4057500FB9C4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5148C5B1FB4057500FB9C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5148C651FB4057500FB9C4A /* ViewController.swift in Sources */,
+				F5148C631FB4057500FB9C4A /* AppDelegate.swift in Sources */,
+				F584A98B1FBD3DBC0062E1BD /* Maps.swift in Sources */,
+				F5148C771FB4066800FB9C4A /* MyTable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5148C661FB4057500FB9C4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5148C671FB4057500FB9C4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5148C6B1FB4057500FB9C4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5148C6C1FB4057500FB9C4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5148C6F1FB4057500FB9C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5148C701FB4057500FB9C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5148C721FB4057500FB9C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MedicalCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-01621246.MedicalCenter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F5148C731FB4057500FB9C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MedicalCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-01621246.MedicalCenter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5148C5A1FB4057500FB9C4A /* Build configuration list for PBXProject "MedicalCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5148C6F1FB4057500FB9C4A /* Debug */,
+				F5148C701FB4057500FB9C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5148C711FB4057500FB9C4A /* Build configuration list for PBXNativeTarget "MedicalCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5148C721FB4057500FB9C4A /* Debug */,
+				F5148C731FB4057500FB9C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5148C571FB4057500FB9C4A /* Project object */;
+}
